@@ -13,7 +13,7 @@ let input;
 let u;
 
 // Declare function
-function chaibora(u) {
+function  calculateChaiboraIngridents(u) {
   a = m * u;
   b= t * u;
   c = s * u;
@@ -26,7 +26,7 @@ input = prompt("Enter the number of cups of tea you want to make:");
 u = parseInt(input);
 
 // Output
-chaibora(u);
+ calculateChaiboraIngrident(u);
 console.log(`To make ${u} cups of tea, you need:`);
 console.log(`${a} ml of water`);
 console.log(`${b} ml of milk`);
